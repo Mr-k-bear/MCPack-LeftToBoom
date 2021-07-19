@@ -47,6 +47,6 @@ scoreboard players set CountN T 0
 scoreboard players set CountE T 0
 
 # 计算每个维度多所少人
-execute as @a[nbt={Dimension: "minecraft:overworld"}] run scoreboard players operation CountO T += ONE T
-execute as @a[nbt={Dimension: "minecraft:the_nether"}] run scoreboard players operation CountN T += ONE T
-execute as @a[nbt={Dimension: "minecraft:the_end"}] run scoreboard players operation CountE T += ONE T
+execute as @a[nbt={Dimension: "minecraft:overworld"}] run execute as @s at @s unless score @s Reset matches 0 run scoreboard players operation CountO T += ONE T
+execute as @a[nbt={Dimension: "minecraft:the_nether"}] run execute as @s at @s unless score @s Reset matches 0 run scoreboard players operation CountN T += ONE T
+execute as @a[nbt={Dimension: "minecraft:the_end"}] run execute as @s at @s unless score @s Reset matches 0 run scoreboard players operation CountE T += ONE T

@@ -13,7 +13,7 @@ scoreboard players set @a Team 0
 scoreboard players set AllocTeam T 0
 
 # 分队
-execute as @a[limit=5] run function left_chunk_boom:split_team
+execute as @a[limit=5] at @s run execute as @s at @s unless score @s Reset matches 0 run function left_chunk_boom:split_team
 
 # 计算分队后的队伍信息
 function left_chunk_boom:calc_num
