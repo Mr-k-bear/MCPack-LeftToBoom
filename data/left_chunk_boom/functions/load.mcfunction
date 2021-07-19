@@ -71,6 +71,9 @@ scoreboard players set BoomTimerC T 0
 scoreboard players set BoomTimerD T 0
 scoreboard players set BoomTimerE T 0
 
+# 计分板 检测玩家复活
+scoreboard objectives add Reset minecraft.custom:minecraft.time_since_death
+
 # 最多5个分队
 team add A
 team add B
