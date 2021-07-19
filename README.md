@@ -28,13 +28,15 @@ ABC都在地狱，AB抱团，C在地狱落单，DE在主世界抱团，C会爆�
 
 主逻辑：@MrKBear
 
-爆炸逻辑：@meimingzi_silly
+玩家爆炸逻辑：@meimingzi_silly
 
 ## 测试
 
-@清朝保安
-
 @AlabTNT
+
+@lengluoyi
+
+@清朝保安 想结婚的加3510427273
 
 ## 特别感谢
 
