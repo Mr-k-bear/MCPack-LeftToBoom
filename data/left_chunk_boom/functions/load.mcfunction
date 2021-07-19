@@ -1,3 +1,5 @@
+# 项目地址: https://github.com/Mr-k-bear/MCPack-LeftToBoom/releases/new
+# 作者：@MrKBear
 
 #### 用于分队
 # 记录玩家在哪个队伍中

@@ -22,7 +22,7 @@ function left_chunk_boom:calc_num
 function left_chunk_boom:test_boom
 
 # 爆炸调试 正式版记得注释掉
-function left_chunk_boom:debug_show_boom
+# function left_chunk_boom:debug_show_boom
 
 # 爆炸计时器 给一定时间容错，防止服务器的意外BUG
 function left_chunk_boom:boom_timer
